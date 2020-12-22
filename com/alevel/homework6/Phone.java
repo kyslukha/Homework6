@@ -10,14 +10,17 @@ public class Phone {
         Samsung.number = 123456789L;
         Samsung.model = "Samsung";
         Samsung.weight = 0.183;
+        System.out.println("Samsung " + Samsung.number+" "+Samsung.model+" "+ Samsung.weight);
         Phone Iphone = new Phone();
         Iphone.number = 123456788L;
         Iphone.model = "Iphone";
         Iphone.weight = 0.190;
+        System.out.println("Iphone " + Iphone.number+" "+Iphone.model+" "+ Iphone.weight);
         Phone Nokia = new Phone();
         Nokia.number = 123456787L;
         Nokia.model = "Nokia";
         Nokia.weight = 0.186;
+        System.out.println("Nokia " + Nokia.number+" "+Nokia.model+" "+ Nokia.weight);
         System.out.println(Samsung.getNumber());
         System.out.println(Nokia.receiveCall());
         String Name = Iphone.receiveCall();
